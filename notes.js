@@ -16,4 +16,7 @@ paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
 ctrl + space: trigger suggestions. 
 
 postion: 'absolute' sets the position of its element relative to the container. 
+
+Remember to use overflow:'hidden' when you apply borderRadius and have overflowing images. This will take 
+care of the sharp corners. 
 */
