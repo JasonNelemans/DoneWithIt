@@ -14,4 +14,6 @@ in style:
 paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
 
 ctrl + space: trigger suggestions. 
+
+postion: 'absolute' sets the position of its element relative to the container. 
 */
