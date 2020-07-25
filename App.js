@@ -4,6 +4,8 @@ import { View } from 'react-native';
 // Screens
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
+
+//Components
 import AppButton from './app/components/AppButton';
 
 export default function App() {
@@ -14,7 +16,7 @@ export default function App() {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <AppButton title='Login' />
+      <AppButton title='Login' onPress={() => console.log('tapped')} />
     </View>
   );
 }
