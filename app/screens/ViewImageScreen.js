@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View, Platform, StatusBar } from 'react-native';
 
 // Config
 import colors from '../config/colors';
@@ -23,24 +23,26 @@ const styles = StyleSheet.create({
     height: 50,
     backgroundColor: colors.primary,
     position: 'absolute',
-    top: 40,
+    top: 15,
     left: 30,
   },
   container: {
     backgroundColor: colors.black,
     flex: 1,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
   deleteIcon: {
     width: 50,
     height: 50,
     backgroundColor: colors.secondary,
     position: 'absolute',
-    top: 40,
+    top: 15,
     right: 30,
   },
   image: {
     width: '100%',
-    height: '110%',
+    height: '100%',
   },
 });
+
 export default ViewImageScreen;
