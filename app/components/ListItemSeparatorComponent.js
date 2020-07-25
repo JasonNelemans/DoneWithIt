@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 
 import colors from '../config/colors';
 
-function ListItemSeparator() {
+function ListItemSeparatorComponent() {
   return <View style={styles.separator} />;
 }
 
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListItemSeparator;
+export default ListItemSeparatorComponent;
