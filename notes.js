@@ -8,4 +8,10 @@ Press R twice to reload Android simulator.
 
 When importing local files use: require()
 if network image, use source={{uri: "url string"}}
+
+To dynamically add padding for statusbar: 
+in style: 
+paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+
+ctrl + space: trigger suggestions. 
 */
