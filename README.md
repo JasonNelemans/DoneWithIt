@@ -7,9 +7,9 @@ A React Native app, in development.
 ## Table of contents
 
 • [Goal of project](#Goal-of-project)\
-∙ [Highlights](#Highlights)\
 • [Technologies used](#Technologies-used)\
-• [Future features](#Future-features)
+• [Future features](#Future-features)\
+∙ [Highlights](#Highlights)
 
 ## Goal of project
 
@@ -31,21 +31,6 @@ More specifically, this project will teach me how to:
 - Publish apps to Expo
 - Apply React Native best practices
 - Write clean code like a pro
-
-## Highlights
-
-Here are screencaptures of each of the screens I've built so far:
-
-![AccountScreen](/images/AccountScreen.png)
-![CategoryList](/images/CategoryList.png)
-![ListingDetailsScreen](/images/ListingDetailsScreen.png)
-![ListingsScreen](/images/ListingsScreen.png)
-![ListngEditScreen](/images/ListngEditScreen.png)
-![Login](/images/Login.png)
-![LoginScreen](/images/LoginScreen.png)
-![MessagesScreen](/images/MessagesScreen.png)
-![RegisterScreen](/images/RegisterScreen.png)
-![ViewImageScreen](/images/ViewImageScreen.png)
 
 ## Technologies used
 
@@ -69,3 +54,18 @@ The future features of this project will include but not limited to:
 - Log and monitor errors
 - Manage configuration settings across different environments
 - Build and distribute apps
+
+## Highlights
+
+Here are screencaptures of each of the screens I've built so far:
+
+![AccountScreen](/images/AccountScreen.png)
+![CategoryList](/images/CategoryList.png)
+![ListingDetailsScreen](/images/ListingDetailsScreen.png)
+![ListingsScreen](/images/ListingsScreen.png)
+![ListngEditScreen](/images/ListngEditScreen.png)
+![Login](/images/Login.png)
+![LoginScreen](/images/LoginScreen.png)
+![MessagesScreen](/images/MessagesScreen.png)
+![RegisterScreen](/images/RegisterScreen.png)
+![ViewImageScreen](/images/ViewImageScreen.png)
