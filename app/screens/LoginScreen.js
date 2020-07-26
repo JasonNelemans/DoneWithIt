@@ -5,11 +5,11 @@ import * as Yup from 'yup';
 
 import AppButton from '../components/AppButton';
 import AppTextInput from '../components/AppTextInput';
-import ErrorMessage from '../components/ErrorMessage';
+import ErrorMessage from '../components/forms/ErrorMessage';
 import Screen from '../components/Screen';
-import AppFormField from '../components/AppFormField';
-import SubmitButton from '../components/SubmitButton';
-import AppForm from '../components/AppForm';
+import AppForm from '../components/forms/AppForm';
+import AppFormField from '../components/forms/AppFormField';
+import SubmitButton from '../components/forms/SubmitButton';
 
 const validationSchema = Yup.object().shape({
   email: Yup.string().required().email().label('Email'),
