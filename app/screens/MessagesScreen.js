@@ -11,14 +11,14 @@ import {
 const initialMessages = [
   {
     id: 1,
-    title: 'T1',
-    description: 'D1',
+    title: 'Jason Nelemans',
+    description: 'Yo yo, is this still on?',
     image: require('../assets/JasonPF.jpg'),
   },
   {
     id: 2,
-    title: 'T2',
-    description: 'D2',
+    title: 'Jason Nelemans',
+    description: 'Hello! Was wondering if this is still available?',
     image: require('../assets/JasonPF.jpg'),
   },
 ];
