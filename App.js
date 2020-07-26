@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import RegisterScreen from './app/screens/RegisterScreen';
+import React from 'react';
+import MessagesScreen from './app/screens/MessagesScreen';
 import ListingEditScreen from './app/screens/ListingEditScreen';
 
 export default function App() {
