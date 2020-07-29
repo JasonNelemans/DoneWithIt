@@ -12,6 +12,7 @@ import * as ImagePicker from 'expo-image-picker';
 import colors from '../config/colors';
 
 function ImageInput({ imageUri, onChangeImage }) {
+  // Always ask permission to not have to explicity ask for permission.
   useEffect(() => {
     requestPermission();
   }, []);
@@ -25,6 +26,7 @@ function ImageInput({ imageUri, onChangeImage }) {
     if (!imageUri) selectImage();
     else
       Alert.alert('Delete', 'Are you sure you want to delete this image?', [
+        // Third property is an array of buttons.
         { text: 'Yes', onPress: () => onChangeImage(null) },
         { text: 'No ' },
       ]);
@@ -33,8 +35,9 @@ function ImageInput({ imageUri, onChangeImage }) {
   const selectImage = async () => {
     try {
       const result = await ImagePicker.launchImageLibraryAsync({
-        mediaTypes: ImagePicker.MediaTypeOptions.Images,
-        quality: 0.5,
+        // Configuartional object
+        mediaTypes: ImagePicker.MediaTypeOptions.Images, // Only allow to select images, no videos.
+        quality: 0.5, // Less image quality to not deal with large upload.
       });
       if (!result.cancelled) onChangeImage(result.uri);
     } catch (error) {
