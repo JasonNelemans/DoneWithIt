@@ -31,13 +31,13 @@ const TweetDetails = ({ route }) => (
 
 const Stack = createStackNavigator();
 const StackNavigator = () => (
-  <Stack.Navigator>
+  <Stack.Navigator
+    screenOptions={{
+      headerStyle: { backgroundColor: 'dodgerblue' },
+      headerTintColor: 'white',
+    }}>
     <Stack.Screen name='Tweets' component={Tweets} />
-    <Stack.Screen
-      name='TweetDetails'
-      component={TweetDetails}
-      options={({ route }) => ({ title: route.params.id })}
-    />
+    <Stack.Screen name='TweetDetails' component={TweetDetails} />
   </Stack.Navigator>
 );
 
