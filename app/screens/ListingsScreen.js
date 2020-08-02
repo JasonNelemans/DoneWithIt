@@ -28,7 +28,7 @@ function ListingsScreen({ navigation }) {
           <Card
             title={item.title}
             subTitle={'$' + item.price}
-            image={item.image}
+            imageUrl={item.images[0].url}
             onPress={() => navigation.navigate(routes.LISTING_DETAILS, item)}
           />
         )}
