@@ -9,6 +9,7 @@ import Screen from './app/components/Screen';
 import AuthNavigator from './app/navigation/AuthNavigator';
 import NavigationTheme from './app/navigation/NavigationTheme';
 import AppNavigator from './app/navigation/AppNavigator';
+import OfflineNotice from './app/components/OfflineNotice';
 
 const Link = () => {
   const navigation = useNavigation();
@@ -62,8 +63,11 @@ const TabNavigator = () => (
 
 export default function App() {
   return (
-    <NavigationContainer theme={NavigationTheme}>
-      <AppNavigator />
-    </NavigationContainer>
+    <>
+      <OfflineNotice />
+      <NavigationContainer theme={NavigationTheme}>
+        <AppNavigator />
+      </NavigationContainer>
+    </>
   );
 }
