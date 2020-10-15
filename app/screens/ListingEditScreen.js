@@ -3,8 +3,8 @@ import { StyleSheet } from 'react-native';
 import * as Yup from 'yup';
 
 import {
-  AppForm as Form,
-  AppFormField as FormField,
+  Form,
+  FormField,
   AppFormPicker as Picker,
   SubmitButton,
 } from '../components/forms';
