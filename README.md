@@ -56,3 +56,7 @@ Clone this project and fill in your machine's IP address in app/api/client.js at
 This way the React Native project and the server can communicate on your local machine.\
 \
 Please take note that push notifications will only work on an actual mobile device. Emulators are unable to store pushTokens and give pushnotifications.
+
+![Login](./images/Login.png)
+![Listings screen](./images/ListingsScreen.png)
+![Category List](./images/CategoryList.png)
